@@ -9,6 +9,10 @@ Then you can install some packages that are necessary to run IDGDD code:
 library(psych)
 library(igraph)
 ```
+## Input datas: a weighted non-binary mutation matrix A, a PPI network Q, a parameter K; <br>
+
+Example of A input to algorithm,  Their rows represent the same set of cancer samples, and their columns represent two sets of genes.<br>
+<img width="462" height="362" alt="QQ_1791884166595" src="https://github.com/user-attachments/assets/3b4fd6c7-1d98-4f42-929a-ba0e719da9a0" />
 
 ## Example
 
