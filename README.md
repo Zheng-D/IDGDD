@@ -9,15 +9,6 @@ Then you can install some packages that are necessary to run IDGDD code:
 library(psych)
 library(igraph)
 ```
-## Input datas: a weighted non-binary mutation matrix A, a PPI network Q, a parameter K; <br>
-
-Example of the algorithm's S input: rows represent genes, while columns represent cancer samples.
-<img width="481" height="274" alt="S" src="https://github.com/user-attachments/assets/0034232f-309b-46c5-8a2d-0f83d1662a57" />
-
-Example of the algorithm's input E: its rows represent samples, while its columns represent genes.
-
-<img width="481" height="253" alt="E" src="https://github.com/user-attachments/assets/c331dabb-4c13-48a7-a835-2a55c4ecd312" />
-
 
 ## Example
 
@@ -27,6 +18,15 @@ This is a basic example which shows you how to get a list of potential driver ge
 library(psych)
 library(igraph)
 ```
+
+Example of the algorithm's S input: rows represent genes, while columns represent cancer samples.
+<img width="481" height="274" alt="S" src="https://github.com/user-attachments/assets/0034232f-309b-46c5-8a2d-0f83d1662a57" />
+
+Example of the algorithm's input E: its rows represent samples, while its columns represent genes.
+
+<img width="481" height="253" alt="E" src="https://github.com/user-attachments/assets/c331dabb-4c13-48a7-a835-2a55c4ecd312" />
+
+
 Step1: load data about breast cancer:
 ```{r, eval=FALSE, message=FALSE, warning = FALSE}
 mul_edge_list <- read.table('edge_file.txt')
